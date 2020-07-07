@@ -1,0 +1,28 @@
+#assigning elements to lists
+a=['apple','mango','blackberry','gauva', 'bananna']
+a.sort() 
+print(a) 
+Output:-['apple', 'bananna', 'blackberry', 'gauva', 'mango']
+a.append('pine apple') 
+print(a) 
+Output:-['apple', 'bananna', 'blackberry', 'gauva', 'mango','pine apple']
+a.insert(3,'water melon')
+print(a) 
+Output:-['apple', 'bananna', 'blackberry','water melon', 'gauva', 'mango','pine apple']
+
+#accessing elements from the tuple
+a=(1,4,5,89,45,44,34) 
+print(a(0)), output:- 1
+print(a(5)), output:- 44
+
+#deleting different dictionary elements
+a={'barnd':'ford','year':2020,123:4567}
+del a('year')
+print(a), output:-{'barnd':'ford',123:4567}
+
+
+
+
+
+
+ 
